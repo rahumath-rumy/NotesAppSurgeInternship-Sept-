@@ -30,7 +30,6 @@ const Home = () => {
              </div>
 	}
 	
-	// If page is not in loading state, display page.
 	else {
 		return (
             <Login/>
