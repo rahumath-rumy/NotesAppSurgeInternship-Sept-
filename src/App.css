@@ -1,0 +1,66 @@
+/* .App {
+  background-color: #F6D556;
+} */
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #F6D556;
+}
+
+.RegForm {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.RegFormContents {
+  padding-left: 12%;
+  padding-right: 12%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: #ED553B;
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(34, 34, 34);
+}
+
+.newUser{
+  color:#ED553B;
+  text-align: center;
+}
+.button {
+  background-color: #ED553B;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  }
+
+  .button:hover {
+    color: white;
+    background-color: #206393;
+    }
