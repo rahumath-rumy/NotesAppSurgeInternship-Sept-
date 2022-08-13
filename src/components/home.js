@@ -1,6 +1,8 @@
 import React from "react";
 import {useEffect, useState} from "react";
-import Login from "./login";
+
+import Login from './login'
+import SignUp from './signup'
 import { BeatLoader, BarLoader} from 'react-spinners'
 
 
@@ -26,7 +28,7 @@ const Home = () => {
   
 			 <BeatLoader size ={40} color='#ED553B' loading/> <br/>
 			 <h2>Welcome to XYZ ACADEMY </h2> <br/>
-			 <h4>Loading </h4>
+			 <h4>Loading... </h4>
              </div>
 	}
 	

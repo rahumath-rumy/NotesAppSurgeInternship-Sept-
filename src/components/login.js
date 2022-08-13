@@ -9,9 +9,9 @@ export default class Login extends Component {
             <div className="RegFormContents">
               <h3 className="title">XYZ Academy</h3>
               <div className="form-group mt-3">
-                <label>Enter Name</label>
+                <label>Enter Email</label>
                 <input
-                  type="text"
+                  type="email"
                   className="form-control mt-1"
                   placeholder="Enter email"
                 />
