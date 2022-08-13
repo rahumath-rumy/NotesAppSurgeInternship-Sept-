@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 //import {useNavigate, Navigate} from 'react-router-dom';
 
-
 export default class SignUp extends Component {
   
   render() {
     // const navigateToNotes = () => {
-    //   // 👇️ navigate to /contacts
+    //   // 👇️ navigate to /SignUp
     //   navigate('/sign-in');
     // };
 
@@ -16,11 +15,11 @@ export default class SignUp extends Component {
         <div className="RegFormContents">
         <h3 className="title">XYZ Academy</h3>
         <div className="form-group mt-3">
-          <label>Enter Name</label>
+          <label>Enter First Name</label>
           <input
             type="text"
             className="form-control mt-1"
-            placeholder="Enter First Name"
+            placeholder="First Name"
           />
         </div>
 
@@ -29,7 +28,7 @@ export default class SignUp extends Component {
           <input
             type="text"
             className="form-control mt-1"
-            placeholder="Enter Last Name"
+            placeholder="Last Name"
           />
         </div>
 
@@ -38,7 +37,7 @@ export default class SignUp extends Component {
           <input
             type="email"
             className="form-control mt-1"
-            placeholder="Enter Email"
+            placeholder="Email"
           />
         </div>
         <div className="form-group mt-3">
@@ -46,7 +45,16 @@ export default class SignUp extends Component {
           <input
             type="password"
             className="form-control mt-1"
-            placeholder="Enter Password"
+            placeholder="Password"
+          />
+        </div>
+
+        <div className="form-group mt-3">
+          <label>Confirm Password</label>
+          <input
+            type="password"
+            className="form-control mt-1"
+            placeholder="Re-enter Password"
           />
         </div>
 
@@ -55,13 +63,13 @@ export default class SignUp extends Component {
               Lets Get Started!
             </button>
         </div>
+
         <p className="forgot-password text-right" style={{marginTop:"10px"}}>
-          Already registered <a href="/sign-in">sign in?</a>
+          Already registered? <a href="/sign-in">Sign in</a>
         </p>
         </div>
       </form>
       </div>
- 
     )
   }
 }

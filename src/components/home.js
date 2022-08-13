@@ -2,9 +2,7 @@ import React from "react";
 import {useEffect, useState} from "react";
 
 import Login from './login'
-import SignUp from './signup'
-import { BeatLoader, BarLoader} from 'react-spinners'
-
+import { BeatLoader} from 'react-spinners'
 
 const Home = () => {
 
@@ -24,18 +22,22 @@ const Home = () => {
 	
 	
 	if (loading) {
-		return < div style={{textAlign:"center" , margin:"250px 0 0 0px"}}>
+		return (
+		<div style={{textAlign:"center" , margin:"250px 0 0 0px"}}>
   
 			 <BeatLoader size ={40} color='#ED553B' loading/> <br/>
 			 <h2>Welcome to XYZ ACADEMY </h2> <br/>
-			 <h4>Loading... </h4>
-             </div>
+			 <h5> SHALL WE <a href="/sign-up"> START? </a></h5> 
+           
+        </div>
+		)
 	}
 	
 	else {
 		return (
             <Login/>
-)	}
-}
+			)	
+		}
+	}
 
 export default Home;

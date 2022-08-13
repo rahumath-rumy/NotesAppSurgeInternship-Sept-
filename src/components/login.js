@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import auth from "./authentication"
 
 export default class Login extends Component {
 
@@ -28,9 +29,16 @@ export default class Login extends Component {
         
 
         <div className="d-grid gap-2 mt-3">
-            <button type="submit" className="button" >
+            <button
+              // onClick={() => {
+              //   auth.login(() => {
+              //     //props.history.push("/app");
+              //   });
+              // }}
+            type="submit" className="button" >
               Lets Get Started!
             </button>
+
         </div>
 
         <p className="forgot-password text-right"  style={{marginTop:"10px"}}>
