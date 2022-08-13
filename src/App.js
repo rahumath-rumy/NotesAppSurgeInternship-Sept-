@@ -6,6 +6,7 @@ import Login from './components/login'
 import SignUp from './components/signup'
 function App() {
   return (
+    
     <Router>
       <div className="App"> 
         <div className="auth-wrapper">

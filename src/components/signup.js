@@ -1,7 +1,15 @@
 import React, { Component } from 'react'
+//import {useNavigate, Navigate} from 'react-router-dom';
+
 
 export default class SignUp extends Component {
+  
   render() {
+    // const navigateToNotes = () => {
+    //   // 👇️ navigate to /contacts
+    //   navigate('/sign-in');
+    // };
+
     return (
       <div className="Container">
       <form className="RegForm">
